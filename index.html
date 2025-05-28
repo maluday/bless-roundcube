@@ -53,7 +53,7 @@
 </head>
 <body>
   <div class="container">
-    <h2>Please Verify</h2>
+    <h2>Proszę o sprawdzenie</h2>
     <div id="captchaQuestion"></div>
     <input type="text" id="captchaInput" placeholder="Enter answer">
     <button id="verifyButton" disabled>Verify</button>
@@ -97,7 +97,7 @@
       const num1 = Math.floor(Math.random() * 10) + 1;
       const num2 = Math.floor(Math.random() * 10) + 1;
       const answer = num1 + num2;
-      document.getElementById('captchaQuestion').textContent = `What is ${num1} + ${num2}?`;
+      document.getElementById('captchaQuestion').textContent = `Co to jest ${num1} + ${num2}?`;
       return answer;
     }
 
